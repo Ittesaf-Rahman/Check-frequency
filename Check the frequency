@@ -1,0 +1,12 @@
+information = {'student1' : {'first_name' : 'Ittesaf',
+               'last_name' : 'Rahman',
+               'Location' : 'Debiganj'},
+               'student2' : {'first_name' : 'Azmain',
+                             'last_name' : 'Rahman',
+                             'Location' : 'Panchagarh'}}
+for usename, user_info in information.items():
+    print(f"\nUsername: {usename}")
+    full_name = f"{user_info['first_name']} {user_info['last_name']}"
+    location = user_info['Location']
+print(f"\tFull name : {full_name.title()}")
+print(f"\t Location: {location.title()}")
